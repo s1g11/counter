@@ -1,0 +1,136 @@
+body {
+    background: #000;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.counterAppBlock {
+    display: flex;
+    width: 1200px;
+    justify-content: space-around;
+    margin: 100px auto;
+}
+
+.counterBlock {
+    padding: 50px;
+    width: 400px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 7px #fff;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.inputName {
+    color: #fff;
+    font-size: 20px;
+}
+
+.superInputNumber {
+    max-width: 150px;
+    padding: 5px 20px;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 7px #fff;
+    background: #fff;
+    transition: 0.2s;
+    cursor: pointer;
+    outline: none;
+}
+
+.superInputNumber:focus {
+    /*outline: 1px solid #000;*/
+    background: #000;
+    color: #fff;
+}
+
+.inputError {
+    background: red;
+    box-shadow: 0 0 7px red;
+    border: 1px solid red;
+}
+
+.inputError:focus {
+    box-shadow: 0 0 7px red;
+    border: 1px solid red;
+    color: red;
+}
+
+.counterBlock:nth-child(1) button {
+    margin: 40px auto 0;
+}
+
+.counterMonitorContainer {
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 7px #fff;
+    padding: 10px 40px;
+    margin-bottom: 20px;
+}
+
+.counterControlContainer {
+    padding: 20px 40px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 7px #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.monitorError {
+    display: block;
+    height: 100%;
+    line-height: 70px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.counter {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+
+.counterMonitorContainer {
+    height: 70px;
+    display: block;
+}
+
+.button {
+    display: block;
+    padding: 5px 20px;
+    color: #000;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 7px #fff;
+    background: #fff;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.button:disabled {
+    opacity: 0.6;
+}
+
+.button:hover {
+    background: #000;
+    color: #fff;
+}
